@@ -1,9 +1,13 @@
 import React from 'react'
 
 const Card = props => {
+    console.log('Card props: ', props)
 
     return (
-        <h2>Card</h2>
+        <div>
+            <img src={props.movieData.Poster} />
+
+        </div>
     )
 }
 

@@ -1,7 +1,7 @@
 import React from 'react'
 
 const getMovieData = () => {
-
+    let returnData = {}
     const OMDB_URL = 'http://omdbapi.com/?'
     const OMDB_API_KEY = '&apikey=2d58c894&'
     
@@ -9,9 +9,9 @@ const getMovieData = () => {
         .then(resp => resp.json())
         .then(json => {
             console.log(json)
-        
+            returnData = json
         })
-
+    return returnData
     }
 
 export default getMovieData
