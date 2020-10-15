@@ -1,18 +1,33 @@
 .App {
+  
+}
+
+#navbar-div {
+  height: 70px;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: 15% 45% 40%;
+}
+
+#navbar-div:first-child {
   text-align: center;
+  align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#andrew-logo {
+  height: 5vh;
+  width: 12vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-menu-div {
+  display: flex;
+  align-items: center;
+  align-content: space-between;
 }
 
+.navbar-menu-div span {
+  padding: 1.5vh;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
