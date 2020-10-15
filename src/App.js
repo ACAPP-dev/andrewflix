@@ -1,23 +1,19 @@
 import React from 'react';
 import './App.css';
-import './containers/NavBarContainer'
+import './containers/NavBarContainer';
 import NavBarContainer from './containers/NavBarContainer';
+import CardsContainer from './containers/CardsContainer';
 
 function App() {
   return (
     <div className="App">
-      <navbar>
+      <div>
         < NavBarContainer / >
+      </div>
 
-      </navbar>
-
-      <header className="App-header">
-        
-        <p>
-          Andrewflix Practice
-        </p>
-       
-      </header>
+      <div>
+        < CardsContainer />
+      </div>
     </div>
   );
 }

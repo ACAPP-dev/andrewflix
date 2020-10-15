@@ -6,10 +6,10 @@ export default class NavBar extends React.Component {
         return (
             <div id='navbar-div'>
                 <div>
-                    <img id='andrew-logo' src={logo} />
+                    <img id='andrew-logo' alt='logo' src={logo} />
                 </div>
                 <div className='navbar-menu-div'>
-                    <span style={{"font-weight":'700'}}>Home</span>
+                    <span style={{"fontWeight":'700'}}>Home</span>
                     <span>TV Shows</span>
                     <span>Movies</span>
                     <span>Latest</span>

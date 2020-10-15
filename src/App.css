@@ -28,6 +28,12 @@
 .navbar-menu-div span {
   padding: 1.5vh;
 }
+
+.cards-div {
+  width: 95%;
+  margin: 0 auto;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
